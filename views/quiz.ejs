@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <%- include('sections/links')%>
+</head>
+<style>
+    body {
+        background-image: url("/images/comingsoon.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div style="height: 100px;">
+
+    </div>
+    <%- include('sections/navBar',{user:user, notification:notification})%>
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="/js/custom.js"></script>
+</body>
+
+</html>
